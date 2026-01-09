@@ -1,0 +1,13 @@
+{
+  "name": "stride",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "backend": "npm --prefix backend run start:dev",
+    "frontend": "npm --prefix frontend start",
+    "dev": "npm-run-all --parallel backend frontend"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
